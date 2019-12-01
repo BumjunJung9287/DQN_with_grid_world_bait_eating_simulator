@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
 from model.model import DeepQNetwork
+
 class game_env():
     def __init__(self, i):
         self.episod = i
@@ -125,7 +126,6 @@ def load_model(md_name, n_actions, device, lr):
         dqn_net.load_state_dict(checkpoint["dqn"])
         optimizer.load_state_dict(checkpoint["optimizer"])
         memories = checkpoint["memories"]
-        print("memories",memories)
 
         print("Models loaded!")
     except Exception as e:
@@ -153,12 +153,11 @@ def visualize(init_state, goal, state, last_action, episod, start=False):
         print()
     print("############")
     if goal == state:
-        print("ate bait!! genterating next goal!")
+        print("Goal Scored!! genterating next goal!")
     return
 
 
 if __name__=="__main__":
-    score = 0
     visualize((0,0),(3,5),(0,0),None,0,start=True)
     visualize((0,0),(3,5),(0,1),0,0)
     visualize((0,0),(3,5),(0,2),0,0)
