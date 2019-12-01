@@ -22,8 +22,6 @@ class DeepQNetwork(nn.Module):
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu:0')
         #cuda:0 -> to use first GPU (if it is available), cuda:1 -> second GPU
         self.to(self.device)
-    def change_lr(self, lr):
-        self.optimizer = optim.Adam(self.parameters(), lr=lr)
 
     def forward(self, observation):
         state = T.Tensor(observation).to(self.device)
@@ -58,8 +56,6 @@ class Agent(object): # subject which do the actions
         self.terminal_memory = np.zeros(self.mem_size, dtype=np.uint8)
         # -> sequence of done flags
 
-    def change_lr(self, lr):
-        self.Q_eval.change_lr(lr)
 
     def store_transition(self, state, action, reward, state_, terminal):
         index = self.mem_cntr % self.mem_size
