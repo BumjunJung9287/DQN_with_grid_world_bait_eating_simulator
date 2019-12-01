@@ -46,8 +46,8 @@ replay memories are stored in Agent as Agent.state_memory, Agent.new_state_memor
 
 ## Visualization / Images of score
 
-![Screenshot from 2019-12-01 20-47-28](https://user-images.githubusercontent.com/47442084/69914074-49398880-1483-11ea-8e85-deb42a748439.png)
 ![Screenshot from 2019-12-01 20-47-52](https://user-images.githubusercontent.com/47442084/69914075-49d21f00-1483-11ea-9b98-4ddd91bc059b.png)
+![Screenshot from 2019-12-01 20-47-28](https://user-images.githubusercontent.com/47442084/69914074-49398880-1483-11ea-8e85-deb42a748439.png)
 ![first 200 epoch scores](https://user-images.githubusercontent.com/47442084/69914077-4ccd0f80-1483-11ea-8ebc-4bc7144cbd28.jpg)
 ![scores200~250](https://user-images.githubusercontent.com/47442084/69914078-4e96d300-1483-11ea-8a6c-9beaa52aa4ec.jpg)
 ![scores250~300](https://user-images.githubusercontent.com/47442084/69914079-4e96d300-1483-11ea-8bb9-9c9cc961c501.jpg)
