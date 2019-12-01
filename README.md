@@ -46,4 +46,11 @@ replay memories are stored in Agent as Agent.state_memory, Agent.new_state_memor
 
 ## Visualization / Images of score
 
-![Screenshot from 2019-12-01 19-42-01](https://user-images.githubusercontent.com/47442084/69913188-dd9dee00-1477-11ea-95c2-9313734d5825.png) ![Screenshot from 2019-12-01 19-42-11](https://user-images.githubusercontent.com/47442084/69913189-dd9dee00-1477-11ea-88f9-99f6baa44ade.png) ![scores](https://user-images.githubusercontent.com/47442084/69913191-e262a200-1477-11ea-8734-dd18a943de44.jpg) ![scores200~250](https://user-images.githubusercontent.com/47442084/69913192-e2fb3880-1477-11ea-9012-0550be24e0ba.jpg) ![scores250~300](https://user-images.githubusercontent.com/47442084/69913193-e2fb3880-1477-11ea-9c82-ba30bb322f46.jpg)
+![Screenshot from 2019-12-01 20-47-28](https://user-images.githubusercontent.com/47442084/69914074-49398880-1483-11ea-8e85-deb42a748439.png)
+![Screenshot from 2019-12-01 20-47-52](https://user-images.githubusercontent.com/47442084/69914075-49d21f00-1483-11ea-9b98-4ddd91bc059b.png)
+![first 200 epoch scores](https://user-images.githubusercontent.com/47442084/69914077-4ccd0f80-1483-11ea-8ebc-4bc7144cbd28.jpg)
+![scores200~250](https://user-images.githubusercontent.com/47442084/69914078-4e96d300-1483-11ea-8a6c-9beaa52aa4ec.jpg)
+![scores250~300](https://user-images.githubusercontent.com/47442084/69914079-4e96d300-1483-11ea-8bb9-9c9cc961c501.jpg)
+![rewards](https://user-images.githubusercontent.com/47442084/69914081-4fc80000-1483-11ea-8861-5db473f236e3.jpg)
+![steps](https://user-images.githubusercontent.com/47442084/69914083-5191c380-1483-11ea-8186-aae593fdec8a.jpg)
+
