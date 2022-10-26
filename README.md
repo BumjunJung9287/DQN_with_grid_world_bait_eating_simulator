@@ -23,7 +23,7 @@ you can adjust the amount or conditions oh these rewards in the game_environment
 
 first, run main.py with no argumets. The model will be trained until 200 epochs and be saved as "model_until_200epoch.model"
 
-$ python3 main.py
+```$ python3 main.py```
 
 if you want to train the saved model, choose the number of games(n_games) you want to train, and number of model(md_num)
 
@@ -31,7 +31,7 @@ if you want to train the saved model, choose the number of games(n_games) you wa
 
 and run main.py as 
 
-$ python3 main.py -c -n n_games -md md_num
+```$ python3 main.py -c -n n_games -md md_num```
 
 then it will train continuosly.
 
