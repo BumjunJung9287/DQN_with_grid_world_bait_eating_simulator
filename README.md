@@ -25,7 +25,7 @@ first, run main.py with no argumets. The model will be trained until 200 epochs 
 
 ```$ python3 main.py```
 
-if you want to train the saved model, choose the number of games(n_games) you want to train, and number of model(md_num)
+if you want to train the saved model, choose the number of games(**n_games**) you want to train, and number of model(**md_num**)
 
 (for examplethe number for the model "model_until_200epoch.model" is 200)
 
